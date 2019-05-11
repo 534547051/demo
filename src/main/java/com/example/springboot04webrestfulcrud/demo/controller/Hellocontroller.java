@@ -19,17 +19,14 @@ public class Hellocontroller {
     @RequestMapping("/success")
     public String success(Map<String, Object> map) {
         map.put("hello", "你好");
-        map.put("users", Arrays.asList("zhangsan","lisi","wangwu"));
+        map.put("users", Arrays.asList("zhangsan", "lisi", "wangwu"));
 //        classpath:/templates/success.html
         return "success";
     }
 //    访问首页，写一个index方法
-
-    @RequestMapping({"/","/login"})
-    public String index(){
-        return "login";
-    }
-
-
+//    @RequestMapping({"/","/login"})
+//    public String index(){
+//        return "login";
+//    }
 
 }

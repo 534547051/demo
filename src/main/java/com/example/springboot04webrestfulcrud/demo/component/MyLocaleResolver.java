@@ -1,4 +1,4 @@
-package component;
+package com.example.springboot04webrestfulcrud.demo.component;
 
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.LocaleResolver;

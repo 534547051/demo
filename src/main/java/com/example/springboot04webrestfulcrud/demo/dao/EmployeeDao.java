@@ -1,9 +1,9 @@
-package dao;
+package com.example.springboot04webrestfulcrud.demo.dao;
 
 
 
-import entities.Department;
-import entities.Employee;
+import com.example.springboot04webrestfulcrud.demo.entities.Department;
+import com.example.springboot04webrestfulcrud.demo.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

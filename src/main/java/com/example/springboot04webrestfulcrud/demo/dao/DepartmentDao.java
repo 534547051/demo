@@ -1,7 +1,7 @@
-package dao;
+package com.example.springboot04webrestfulcrud.demo.dao;
 
 
-import entities.Department;
+import com.example.springboot04webrestfulcrud.demo.entities.Department;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;

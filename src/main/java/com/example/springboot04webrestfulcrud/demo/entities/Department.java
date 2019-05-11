@@ -1,4 +1,4 @@
-package entities;
+package com.example.springboot04webrestfulcrud.demo.entities;
 
 public class Department {
 
